@@ -6,6 +6,7 @@ public class Bank {
 	private boolean netBanking;
 	private int noOfBranches;
 	protected double rateOfInterest;
+	String name;
 
 	// default constructor
 	public Bank() {

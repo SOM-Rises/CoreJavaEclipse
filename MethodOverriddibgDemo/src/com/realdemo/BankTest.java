@@ -8,7 +8,7 @@ public class BankTest {
 		SBI a = new SBI();
 		// a.setRateOfInterest(8.5);
 		a.setRateOfInterest();
-		System.out.println("SBI Bank Interest: " + a.getRateOfInterest());
+		System.out.println("SBI Bank Interest: " + a.getRateOfInterest() + " " + a.name);
 
 		Canara b = new Canara();
 		// b.setRateOfInterest(6.5);
